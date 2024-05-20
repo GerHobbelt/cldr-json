@@ -187,6 +187,11 @@
         "zh-Hant": "und",
         "zh-Hant-MO": "zh-Hant-HK"
       },
+      "_localeRules": {
+        "parentLocale": {
+          "nonlikelyScript": "root"
+        }
+      },
       "collations": {
         "sr-Cyrl-ME": "sr-ME",
         "yue-CN": "zh-Hans",
@@ -194,8 +199,10 @@
         "yue-Hans-CN": "zh-Hans",
         "yue": "zh-Hant",
         "yue-Hant": "zh-Hant"
-      }
-    },
-    "segmentations grammaticalFeatures plurals": {}
+      },
+      "segmentations": {},
+      "grammaticalFeatures": {},
+      "plurals": {}
+    }
   }
 }
